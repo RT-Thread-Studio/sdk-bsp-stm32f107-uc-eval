@@ -8,7 +8,7 @@ board:
   description_zh: μC/Eval-STM32F107 评估板（中国版）是一个完整的开发平台，采用了基于 ARM Cortex-M3核的 ST 微处理器。
   emulator_machine: ''
   large_image: documents/images/board.png
-  name: stm32f107-uc-eval
+  name: STM32F107-UC-EVAL
   price_cn: 暂无 CNY
   price_global: 暂无 USD
   sale_contact_cn: https://www.st.com/zh/evaluation-tools/stm3210c-eval.html#overview
