@@ -1,0 +1,90 @@
+board:
+  buy_url_cn: https://www.st.com/zh/evaluation-tools/stm3210c-eval.html#overview
+  buy_url_global: https://www.st.com/zh/evaluation-tools/stm3210c-eval.html#overview
+  debug_interface: SWD
+  debugger: ST-LINK
+  description_en: μC/Eval-STM32F107 Evaluation Board (China Version) is a complete
+    development platform, using ST microprocessor based on ARM Cortex-M3 core.
+  description_zh: μC/Eval-STM32F107 评估板（中国版）是一个完整的开发平台，采用了基于 ARM Cortex-M3核的 ST 微处理器。
+  emulator_machine: ''
+  large_image: documents/images/board.png
+  name: stm32f107-uc-eval
+  price_cn: 暂无 CNY
+  price_global: 暂无 USD
+  sale_contact_cn: https://www.st.com/zh/evaluation-tools/stm3210c-eval.html#overview
+  sale_contact_global: https://www.st.com/zh/evaluation-tools/stm3210c-eval.html#overview
+  small_image: documents/images/boards.png
+  vendor: STMicroelectronics
+  version: stm32f107-uc-eval
+chip:
+  chip_name: STM32F107VCT6
+  clock_source: HSE
+  device_vendor: STMicroelectronics
+  family_name: STM32
+  rx_name: PA10
+  series_name: STM32F1
+  source_freq: '8000000'
+  sub_series_name: 'STM32F107 '
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/stm32f107vc.pdf
+  title: stm32f107vc
+example_projects: []
+features:
+- 'MCU: STM32F107VCT6, clocked at 72MHz, 256KB FLASH, 64KB RAM'
+- 'LED: 3, LED1 (green, PD13), LED2 (yellow, PD14), LED3 (red, PD15)'
+- USB to serial port, SD card interface, Ethernet interface, etc.
+- SWD
+features_zh:
+- MCU：STM32F107VCT6，主频 72MHz，256KB FLASH ，64KB RAM
+- LED：3个，LED1（绿色，PD13），LED2（黄色，PD14），LED3（红色，PD15）
+- USB 转串口、SD 卡接口、以太网接口等
+- 标准 SWD
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvopt
+    - project.uvoptx
+    - project.uvproj
+    - project.uvprojx
+    - README.md
+    - rt-thread
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvopt
+    - template.uvoptx
+    - template.uvproj
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files: []
+  project_description: ''
+  project_name: stm32f107-uc-eval
+  project_type: rt-thread|@full|@4.0.3
+yaml_version: 3
